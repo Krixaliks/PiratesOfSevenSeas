@@ -1,0 +1,72 @@
+[
+  {
+    "uid": "1",
+    "header": "Мастер клинка",
+    "tech_description": "Лихой рубака.",
+    "icon": 1,
+    "bgimg": "",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "1",
+          "lane": 1,
+          "depth": 2,
+          "header": "Вихрь ударов",
+          "tech_description": "Кек",
+          "bigNode": false,
+          "bgimg": "",
+          "parents": [],
+          "neededParents": 0,
+          "levelRequirement": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [
+              {
+                "id": 8,
+                "amount": 1
+              }
+            ],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              5
+            ],
+            "commonevents": [],
+            "animation": {
+              "id": 0
+            },
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 980,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      }
+    ],
+    "animation": {
+      "id": 0
+    },
+    "hideGoldCost": false,
+    "hideJPCost": false,
+    "costItems": [
+      8
+    ]
+  }
+]
